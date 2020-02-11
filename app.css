@@ -37,6 +37,9 @@ body, html {
 #name {
     margin: 5px;
     flex: 2;
-    top: 25px;
-    left: 25px;
+    font-family: Helvetica;
+    font-size: 14pt;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
 }
