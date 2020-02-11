@@ -34,7 +34,10 @@
     display: flex;
 
 }
-
+#backgroundimg {
+    width: 100vw;
+    height: 70vh;
+}
 #menu2 section > div {
     padding: 10px;
     max-width: 100%;
