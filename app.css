@@ -1,3 +1,50 @@
+#avatar2 {
+    width: 75px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+#avatar2 img {
+    height: 100%;
+    border-radius: 5px;
+    margin-right: -15px;
+}
+
+#menu2 {
+    border: #999 solid 1px;
+    border-radius: 5px;
+    width: 200px;
+    position: absolute;
+    right: 0px;
+    top: 100%;
+    display: none;
+    background-color: #FFF;
+    opacity: 0;
+    transition:opacity 0.3s;
+}
+#menu2 section {
+    border-bottom: #999 solid 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;    
+    display: flex;
+
+}
+
+#menu2 section > div {
+    padding: 10px;
+    max-width: 100%;
+}
+
+
+
+.material-icons {
+    cursor: pointer;
+}
 
 #menu {
     background-color: rgb(102, 51, 3); 
