@@ -45,3 +45,42 @@
 .material-icons {
     cursor: pointer;
 }
+
+#menu {
+    background-color: rgb(102, 51, 3); 
+    width: 100vw;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+}
+body, html {
+    margin: 0;
+}
+.links {
+    color: white;
+    font-size: 20pt;
+    margin: 25px;
+    align-items: center;
+    display: flex;
+}
+#avatar {
+    display: flex;
+    height: 75px;
+    width: 200px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+#profile {
+    margin: 5px;
+    flex: 1;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+#name {
+    margin: 5px;
+    flex: 2;
+    top: 25px;
+    left: 25px;
+}
