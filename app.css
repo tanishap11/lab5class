@@ -1,0 +1,17 @@
+#menu {
+    background-color: rgb(102, 51, 3); 
+    width: 100vw;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+}
+body, html {
+    margin: 0;
+}
+.links {
+    color: white;
+    font-size: 20pt;
+    margin: 25px;
+    align-items: center;
+    display: flex;
+}
