@@ -1,5 +1,6 @@
 
 .footer {
+  display: flex;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -11,7 +12,10 @@
 }
 
 .rectangle {
+    display: flex;
     height: 50px;
     width: 100px;
-    background-color: #555;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
   }
