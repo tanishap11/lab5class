@@ -1,9 +1,20 @@
 #avatar {
-    position: fixed;
+    display: flex;
     height: 75px;
     width: 200px;
     background-color: lightgray;
     border-radius: 5px;
-    top: 25px;
-    left: 25px;
+}
+
+#profile {
+    margin: 5px;
+    flex: 1;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+#name {
+    margin: 5px;
+    flex: 2;
+    
 }
