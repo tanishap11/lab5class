@@ -1,3 +1,4 @@
+
 #menu {
     background-color: rgb(102, 51, 3); 
     width: 100vw;
@@ -14,4 +15,14 @@ body, html {
     margin: 25px;
     align-items: center;
     display: flex;
+}
+#avatar {
+    position: fixed;
+    height: 75px;
+    width: 200px;
+    background-color: lightgray;
+    border-radius: 5px;
+    top: 25px;
+    left: 25px;
+
 }
