@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LAB 5</title>
     <link href='app.css' rel='stylesheet' />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <script src = 'script.js'></script>
 </head>
 
@@ -21,7 +23,44 @@
 
 
     <!-- SETTINGS -->
-
+        <div id="app">
+            <div id="avatar2">
+    
+                <i class="material-icons" onclick="MenuToggle()">
+                        arrow_drop_down
+                </i>
+                <div id="menu2">
+                    <section>
+                        <!-- section 1 -->
+                        <div>Signed in as ME</div>
+                    </section>
+                    <section>
+                        <!-- section 2  -->
+                        <div id="status">
+                            <div>
+                                <div>set status</div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <!-- section 3 -->
+                        <div>tv shows</div>
+                        <div>Your respository</div>
+                        <div>Your projects</div>
+                        <div>Your stars</div>
+                        <div>Your gists</div>
+                    </section>
+                    <section>
+                        <!-- section  -->
+                        <div>Feature preview</div>
+                        <div>Help</div>
+                        <div>Settings</div>
+                        <div>Sign out</div>
+                    </section>
+                </div>
+            </div>
+            <div id="content" onclick="MenuClose()"></div>
+        </div>
 
     <!-- SETTINGS END -->
 
